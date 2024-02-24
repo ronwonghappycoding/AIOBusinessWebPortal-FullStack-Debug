@@ -1,5 +1,29 @@
-body {
-    font-family: sans-serif;
-    color: greenyellow;
+
+  main {
+    mix-height: 100%;
+    width: 100%;
+    padding: 1%;
+    border-radius: 10px;
+    background: #d4d4d4; /* fallback for old browsers */
+    background: linear-gradient(135deg, #d4d4d4, #fdfdfd);
+    margin: 1%;
   }
+
   
+.container {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  padding: 48px;
+}
+
+  .container h1 {
+    color: #fa0a0a;
+    margin-bottom: 36px;
+  }
+  .list {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 4%;
+    column-gap: 1%;
+  }
