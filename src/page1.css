@@ -9,8 +9,19 @@ Grey : 445566
 body {
     background-color: #10889e;
     font-family: Verdana;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+      135deg,
+      hsl(170deg, 80%, 70%),
+      hsl(190deg, 80%, 70%),
+      hsl(250deg, 80%, 70%),
+      hsl(320deg, 80%, 70%)
+    );
+    background-size: 200% 200%;
   }
-  
+
+
   #container {
     width: 960px;
     margin: auto;
